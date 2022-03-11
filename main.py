@@ -107,7 +107,7 @@ def chat():
                 if tg['tag'] == tag:
                     responses = tg['responses']
 
-        print(random.choice(responses))
+        print(responses)
 
 
 chat()

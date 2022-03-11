@@ -109,8 +109,7 @@
             "Discovery of asteroids"
           ],
           "responses": [
-            "The first asteroid to be discovered, Ceres, was originally considered to be a new planet. This was followed by the discovery of other similar bodies, which, with the equipment of the time, appeared to be points of light, like stars, showing little or no planetary disc, though readily distinguishable from stars due to their apparent motions.",
-            "The first object, Ceres, was not discovered by a member of the group, but rather by accident in 1801 by Giuseppe Piazzi, director of the observatory of Palermo in Sicily."
+            "The first asteroid to be discovered, Ceres, was originally considered to be a new planet. This was followed by the discovery of other similar bodies, which, with the equipment of the time, appeared to be points of light, like stars, showing little or no planetary disc, though readily distinguishable from stars due to their apparent motions."
           ]
         }
       ]
@@ -146,6 +145,28 @@
           "responses": [
             "The estimated age of the Universe has been increased by the observations of an accelerated expansion of the Universe. The current best value is 13.74 +/- 0.11 billion years from a fit of 9 years of WMAP data to a flat Universe, or 13.750 +/- 0.088 billion years for a fit to WMAP+BAO+H0 data."
           ]
+        },
+        {
+          "tag": "End of the Universe",
+          "patterns": [
+            "When will it all end",
+            "When will the universe end",
+            "End of the Universe"
+          ],
+          "responses": [
+            "Several possible futures have been predicted by different scientific hypotheses, including that the universe might have existed for a finite and infinite duration, or towards explaining the manner and circumstances of its beginning."
+          ]
+        },
+        {
+          "tag": "Multiverse",
+          "patterns": [
+            "What is the multiverse?",
+            "What is a multiverse",
+            "Theory for multiverse"
+          ],
+          "responses": [
+            "Nobel laureate Steven Weinberg suggested that if the multiverse existed, 'the hope of finding a rational explanation for the precise values of quark masses and other constants of the standard model that we observe in our Big Bang is doomed, for their values would be an accident of the particular part of the multiverse in which we live'."
+          ]
         }
       ]
     },
@@ -164,7 +185,18 @@
             "The evidence for the Big Bang comes from many pieces of observational data that are consistent with the Big Bang. None of these prove the Big Bang, since scientific theories are not proven. Many of these facts are consistent with the Big Bang and some other cosmological models, but taken together these observations show that the Big Bang is the best current model for the Universe."
           ]
         },
-        {}
+        {
+          "tag": "Before Big Bang",
+
+          "patterns": [
+            "What was before the Big Bang?",
+            "What came before the Big Bang?",
+            "before the Big Bang"
+          ],
+          "responses": [
+            "If time itself began with the Big Bang, then it makes no sense ask what came before. There simply was no “before.” Therefore the question is meaningless, just like what's south of the south pole."
+          ]
+        }
       ]
     },
     {
@@ -221,9 +253,19 @@
       "intents": [
         {
           "tag": "what are earth like planets",
-          "patterns": ["what are earth like planets?", "what are earth analog planets"],
+          "patterns": [
+            "what are earth like planets?",
+            "what are earth analog planets"
+          ],
           "responses": [
-            "An Earth analog (also referred to as an Earth analogue, Earth twin, or Earth-like planet, though this latter term may refer to any terrestrial planet) is a planet or moon with environmental conditions similar to those found on Earth.", ["Kepler-22b", "Kepler-69c", "Kepler-62f", "Kepler-452b", "TRAPPIST-1E"]          
+            "An Earth analog (also referred to as an Earth analogue, Earth twin, or Earth-like planet, though this latter term may refer to any terrestrial planet) is a planet or moon with environmental conditions similar to those found on Earth.",
+            [
+              "Kepler-22b",
+              "Kepler-69c",
+              "Kepler-62f",
+              "Kepler-452b",
+              "TRAPPIST-1E"
+            ]
           ]
         }
       ]
