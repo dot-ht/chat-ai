@@ -114,6 +114,30 @@
           ]
         }
       ]
+    },
+    {
+      "tag": "dark matter",
+      "intents": [
+        {
+          "tag": "dark matter definition",
+          "patterns": ["what is dark matter?", "dark matter definition"],
+          "responses": [
+            "Over 80% of all matter in the universe is made up of material scientists have never seen. It's called dark matter and we only assume it exists because without it, the behaviour of stars, planets and galaxies simply wouldn't make sense.Dark matter is completely invisible. It emits no light or energy and thus cannot be detected by conventional sensors and detectors."
+          ]
+        },
+        {
+          "tag": "dark matter discovery",
+          "patterns": [
+            "When was dark matter discovered",
+            "Discovery of dark matter",
+            "When was first thought of dark matter",
+            "Who discovered dark matter"
+          ],
+          "responses": [
+            "Dark matter's existence was first inferred by Swiss American astronomer Fritz Zwicky, who in 1933 discovered that the mass of all the stars in the Coma cluster of galaxies provided only about 1 percent of the mass needed to keep the galaxies from escaping the cluster's gravitational pull."
+          ]
+        }
+      ]
     }
   ]
 }
