@@ -215,6 +215,18 @@
           ]
         }
       ]
+    },
+    {
+      "tag": "earth like planets",
+      "intents": [
+        {
+          "tag": "what are earth like planets",
+          "patterns": ["what are earth like planets?", "what are earth analog planets"],
+          "responses": [
+            "An Earth analog (also referred to as an Earth analogue, Earth twin, or Earth-like planet, though this latter term may refer to any terrestrial planet) is a planet or moon with environmental conditions similar to those found on Earth.", ["Kepler-22b", "Kepler-69c", "Kepler-62f", "Kepler-452b", "TRAPPIST-1E"]          
+          ]
+        }
+      ]
     }
   ]
 }
