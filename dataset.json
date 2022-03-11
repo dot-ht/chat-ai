@@ -116,6 +116,58 @@
       ]
     },
     {
+      "tag": "Universe",
+      "intents": [
+        {
+          "tag": "model of the universe",
+          "patterns": [
+            "What is the currently most accepted model for the Universe?",
+            "model of the universe",
+            "Universe model"
+          ],
+          "responses": [
+            "The current best fit model is a flat ΛCDM Big Bang model where the expansion of the Universe is accelerating, and the age of the Universe is 13.7 billion years."
+          ]
+        },
+        {
+          "tag": "Infinite Universe",
+          "patterns": ["Is the Universe Infinite", "How big is the universe"],
+          "responses": [
+            "We have observations that say that the radius of curvature of the Universe is bigger than 70 billion light years."
+          ]
+        },
+        {
+          "tag": "Universe age",
+          "patterns": [
+            "How old is the Universe",
+            "What is the age of the Universe",
+            "age of the Universe"
+          ],
+          "responses": [
+            "The estimated age of the Universe has been increased by the observations of an accelerated expansion of the Universe. The current best value is 13.74 +/- 0.11 billion years from a fit of 9 years of WMAP data to a flat Universe, or 13.750 +/- 0.088 billion years for a fit to WMAP+BAO+H0 data."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "Big Bang",
+      "intents": [
+        {
+          "tag": "Big Bang evidence",
+          "patterns": [
+            "What is the evidence for the Big Bang?",
+            "big bang evidence",
+            "big bang real",
+            "Is the Big Bang real"
+          ],
+          "responses": [
+            "The evidence for the Big Bang comes from many pieces of observational data that are consistent with the Big Bang. None of these prove the Big Bang, since scientific theories are not proven. Many of these facts are consistent with the Big Bang and some other cosmological models, but taken together these observations show that the Big Bang is the best current model for the Universe."
+          ]
+        },
+        {}
+      ]
+    },
+    {
       "tag": "dark matter",
       "intents": [
         {
