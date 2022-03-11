@@ -190,6 +190,31 @@
           ]
         }
       ]
+    },
+    {
+      "tag": "dark energy",
+      "intents": [
+        {
+          "tag": "dark energy definition",
+          "patterns": ["what is dark energy?", "dark energy definition"],
+          "responses": [
+            "Dark energy is the name given to the mysterious force that’s causing the rate of expansion of our universe to accelerate over time, rather than to slow down.",
+            "Dark energy is detected by its effect on the rate at which the universe expands and its effect on the rate at which large-scale structures such as galaxies and clusters of galaxies form through gravitational instabilities."
+          ]
+        },
+        {
+          "tag": "dark energy discovery",
+          "patterns": [
+            "When was dark energy discovered",
+            "Discovery of dark energy",
+            "When was first thought of dark energy",
+            "Who discovered dark energy"
+          ],
+          "responses": [
+            "Dark energy was discovered in 1998 by two teams of astronomers, who measured light coming from exploding stars called Type IA supernovas, known as 'standard candles' for their consistent brightness"
+          ]
+        }
+      ]
     }
   ]
 }
