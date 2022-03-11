@@ -86,7 +86,31 @@
             "When was the supernova discovered"
           ],
           "responses": [
-            "The earliest possible recorded supernova, known as HB9, could have been viewed and recorded by unknown prehistoric people of Indian subcontinent, on a rock carving found in Burzahama region in Kashmir, dated to 4500±1000 BC.[2] Later, SN 185 was viewed by Chinese astronomers in 185 AD."
+            "The earliest possible recorded supernova, known as HB9, could have been viewed and recorded by unknown prehistoric people of Indian subcontinent, on a rock carving found in Burzahama region in Kashmir, dated to 4500±1000 BC. Later, SN 185 was viewed by Chinese astronomers in 185 AD."
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "asteroid",
+      "intents": [
+        {
+          "tag": "asteroid definition",
+          "patterns": ["what is an asteroid?", "asteroid definition"],
+          "responses": [
+            "An asteroid is a minor planet of the inner Solar System."
+          ]
+        },
+        {
+          "tag": "asteroid discovery",
+          "patterns": [
+            "When were asteroids discovered",
+            "First asteroid",
+            "Discovery of asteroids"
+          ],
+          "responses": [
+            "The first asteroid to be discovered, Ceres, was originally considered to be a new planet. This was followed by the discovery of other similar bodies, which, with the equipment of the time, appeared to be points of light, like stars, showing little or no planetary disc, though readily distinguishable from stars due to their apparent motions.",
+            "The first object, Ceres, was not discovered by a member of the group, but rather by accident in 1801 by Giuseppe Piazzi, director of the observatory of Palermo in Sicily."
           ]
         }
       ]
