@@ -73,9 +73,11 @@ net = tflearn.fully_connected(net, len(output[0]), activation="softmax")
 net = tflearn.regression(net)
 
 model = tflearn.DNN(net)
-
-model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
-model.save("model.tflearn")
+try:
+    model.load("model.tflearn")
+except:
+    model.fit(training, output, n_epoch=2000, batch_size=8, show_metric=True)
+    model.save("model.tflearn")
 
 
 def word_list(s, words):
