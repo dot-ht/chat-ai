@@ -94,14 +94,20 @@
           "tag": "supernova definition",
           "patterns": [
             "What is a supernova?",
-            "What are supernova?",
+            "What are supernovae?",
             "supernova definition"
           ],
           "responses": [
             "A supernova is a powerful and luminous stellar explosion.This transient astronomical event occurs during the last evolutionary stages of a massive star or when a white dwarf is triggered into runaway nuclear fusion.",
             "https://upload.wikimedia.org/wikipedia/commons/a/a2/SN1994D.jpg"
           ],
-          "response_type": "mixed"
+          "response_type": "mixed",
+          "relations": [
+            ["Latest supernova", "What is the latest supernova"],
+            ["Supernova Theory", "What is the origin of a supernova"],
+            ["Supernova Discovery", "Who discovered the supernova"],
+            ["Black Hole Definition", "What is a Black Hole"]
+          ]
         },
         {
           "tag": "latest supernova",
@@ -112,7 +118,13 @@
           "responses": [
             "The most recent directly observed supernova in the Milky Way was Kepler's Supernova in 1604, but the remnants of more recent supernovae have been found. Observations of supernovae in other galaxies suggest they occur in the Milky Way on average about three times every century."
           ],
-          "response_type": "txt"
+          "response_type": "txt",
+          "relations": [
+            ["Supernova Theory", "What is the origin of a supernova"],
+            ["Supernova Discovery", "Who discovered the supernova"],
+            ["Supernova Definition", "What is a supernova"],
+            ["Black Hole Definition", "What is a Black Hole"]
+          ]
         },
         {
           "tag": "supernova thoery",
@@ -125,10 +137,16 @@
           "responses": [
             "Theoretical studies indicate that most supernovae are triggered by one of two basic mechanisms: the sudden re-ignition of nuclear fusion in a degenerate star such as a white dwarf, or the sudden gravitational collapse of a massive star's core. In the first class of events, the object's temperature is raised enough to trigger runaway nuclear fusion, completely disrupting the star. Possible causes are an accumulation of material from a binary companion through accretion, or a stellar merger."
           ],
-          "response_type": "txt"
+          "response_type": "txt",
+          "relations": [
+            ["Latest supernova", "What is the latest supernova"],
+            ["Supernova Discovery", "Who discovered the supernova"],
+            ["Supernova Definition", "What is a supernova"],
+            ["Black Hole Definition", "What is a Black Hole"]
+          ]
         },
         {
-          "tag": "supenova discovery",
+          "tag": "supernova discovery",
           "patterns": [
             "first discovered supernova",
             "supernova discovery",
@@ -138,7 +156,13 @@
           "responses": [
             "The earliest possible recorded supernova, known as HB9, could have been viewed and recorded by unknown prehistoric people of Indian subcontinent, on a rock carving found in Burzahama region in Kashmir, dated to 4500±1000 BC. Later, SN 185 was viewed by Chinese astronomers in 185 AD."
           ],
-          "response_type": "txt"
+          "response_type": "txt",
+          "relations": [
+            ["Latest supernova", "What is the latest supernova"],
+            ["Supernova Theory", "What is the origin of a supernova"],
+            ["Supernova Definition", "What is a supernova"],
+            ["Black Hole Definition", "What is a Black Hole"]
+          ]
         }
       ],
       "source": "https://en.wikipedia.org/wiki/Supernova"
@@ -153,7 +177,8 @@
             "An asteroid is a minor planet of the inner Solar System.",
             "https://upload.wikimedia.org/wikipedia/commons/3/3b/%28253%29_mathilde.jpg"
           ],
-          "response_type": "mixed"
+          "response_type": "mixed",
+          "relations": [["Asteroid Discovery", "Discovery of asteroids"]]
         },
         {
           "tag": "asteroid discovery",
@@ -165,7 +190,8 @@
           "responses": [
             "The first asteroid to be discovered, Ceres, was originally considered to be a new planet. This was followed by the discovery of other similar bodies, which, with the equipment of the time, appeared to be points of light, like stars, showing little or no planetary disc, though readily distinguishable from stars due to their apparent motions."
           ],
-          "response_type": "txt"
+          "response_type": "txt",
+          "relations": [["Asteroid Definition", "What is an asteroid?"]]
         }
       ],
       "source": "https://en.wikipedia.org/wiki/Asteroid"
