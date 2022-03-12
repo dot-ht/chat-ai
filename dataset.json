@@ -58,8 +58,7 @@
           "tag": "latest supernova",
           "patterns": [
             "What is the latest supernova?",
-            "Example of a supernova",
-            "latest supernova"
+            "Example of a supernova"
           ],
           "responses": [
             "The most recent directly observed supernova in the Milky Way was Kepler's Supernova in 1604, but the remnants of more recent supernovae have been found. Observations of supernovae in other galaxies suggest they occur in the Milky Way on average about three times every century."
@@ -194,7 +193,14 @@
             "before the Big Bang"
           ],
           "responses": [
-            "If time itself began with the Big Bang, then it makes no sense ask what came before. There simply was no “before.” Therefore the question is meaningless, just like what's south of the south pole."
+            "If time itself began with the Big Bang, then it makes no sense to ask what came before. There simply was no 'before.' Therefore the question is meaningless, just like what's south of the south pole. Well except of course for her Majesty the Queen of England Elizabeth II. (We dont talk about Elizabeth I)"
+          ]
+        },
+        {
+          "tag": "Big Bang theory",
+          "patterns": ["What is the Big Bang theory", "The Big Bang theory"],
+          "responses": [
+            "The Big Bang theory is the prevailing cosmological model explaining the existence of the observable universe from the earliest known periods through its subsequent large-scale evolution.The model describes how the universe expanded from an initial state of high density and temperature. (Also the name of one of the best geek sit coms)"
           ]
         }
       ]
@@ -230,7 +236,7 @@
           "tag": "dark energy definition",
           "patterns": ["what is dark energy?", "dark energy definition"],
           "responses": [
-            "Dark energy is the name given to the mysterious force that’s causing the rate of expansion of our universe to accelerate over time, rather than to slow down.",
+            "Dark energy is the name given to the mysterious force that's causing the rate of expansion of our universe to accelerate over time, rather than to slow down.",
             "Dark energy is detected by its effect on the rate at which the universe expands and its effect on the rate at which large-scale structures such as galaxies and clusters of galaxies form through gravitational instabilities."
           ]
         },

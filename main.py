@@ -20,6 +20,7 @@ except:
     labels = []
     docs_x = []
     docs_y = []
+    
 
     for purpose in data["purpose"]:
         for intent in purpose["intents"]:
@@ -43,7 +44,7 @@ except:
     out_empty = [0 for _ in range(len(labels))]
 
     for x, doc in enumerate(docs_x):
-        bag = []
+        
 
         wrds = [stemmer.stem(w.lower()) for w in doc]
 
@@ -86,7 +87,7 @@ def word_list(s, words):
     for se in s_words:
         for i, w in enumerate(words):
             if w == se:
-                bag[i] = 1
+                list[i] = 1
 
     return numpy.array(list)
 
