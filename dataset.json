@@ -241,7 +241,12 @@
           "responses": [
             "The estimated age of the Universe has been increased by the observations of an accelerated expansion of the Universe. The current best value is 13.74 +/- 0.11 billion years from a fit of 9 years of WMAP data to a flat Universe, or 13.750 +/- 0.088 billion years for a fit to WMAP+BAO+H0 data."
           ],
-          "response_type": "txt"
+          "response_type": "txt",
+          "relations": [
+            ["Universe", "What is the currently most accepted model for the Universe?"],
+            ["End of the Universe", "When will it all end"],
+            ["Multiverse", "What is the multiverse?"]
+          ]
         },
         {
           "tag": "End of the Universe",
@@ -265,7 +270,12 @@
           "responses": [
             "Nobel laureate Steven Weinberg suggested that if the multiverse existed, 'the hope of finding a rational explanation for the precise values of quark masses and other constants of the standard model that we observe in our Big Bang is doomed, for their values would be an accident of the particular part of the multiverse in which we live'."
           ],
-          "response_type": "txt"
+          "response_type": "txt",
+          "relations": [
+            ["Universe", "What is the currently most accepted model for the Universe?"],
+            ["End of the Universe", "When will it all end"],
+            ["Universe age", "What is the age of the Universe"]
+          ]
         }
       ],
       "source": "https://en.wikipedia.org/wiki/Universe"
