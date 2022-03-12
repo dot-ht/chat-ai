@@ -209,13 +209,26 @@
           "responses": [
             "The current best fit model is a flat ΛCDM Big Bang model where the expansion of the Universe is accelerating, and the age of the Universe is 13.7 billion years."
           ],
-          "response_type": "txt"
+          "response_type": "txt",
+          "relations": [
+            ["Big Bang evidence", "What is the evidence for the Big Bang?"],
+            ["Before Big Bang", "What was before the Big Bang?"],
+            ["Infinite Universe", "How big is the universe"],
+            ["Universe age", "How old is the Universe"],
+            ["End of the Universe", "When will it all end"]
+          ]
         },
         {
           "tag": "Infinite Universe",
           "patterns": ["Is the Universe Infinite", "How big is the universe"],
           "responses": [
             "We have observations that say that the radius of curvature of the Universe is bigger than 70 billion light years."
+          ],
+          "response_type": "txt",
+          "relations": [
+            ["Universe", "What is the currently most accepted model for the Universe?"],
+            ["Universe age", "What is the age of the Universe"],
+            ["End of the Universe", "When will it all end"]
           ]
         },
         {
