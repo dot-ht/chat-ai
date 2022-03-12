@@ -113,4 +113,14 @@ def chat():
         print(responses)
 
 
+def api_chat(inp):
+    results = model.predict([word_list(inp, words)])
+    results_index = numpy.argmax(results)
+    tag = labels[results_index]
+    
+    for purpose in data["purpose"]:
+        for tg in purpose["intents"]:
+            if tg['tag'] == tag:
+                responses = tg['responses']
+
 chat()
